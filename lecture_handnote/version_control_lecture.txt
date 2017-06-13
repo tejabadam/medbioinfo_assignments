@@ -1,0 +1,23 @@
+Version control :
+RCS -> CVS -> SVN -> GIT
+distributed repository system
+
+commands :
+git add -> add a file 
+git commit -> commit from staging to repos
+git diff -> find differences
+git status 
+git push
+git pull
+git init
+git clone
+
+note: 
+text files preferred
+source code , input is ok
+but not output files or /bin 
+
+exercises : 
+1. swcarpentry.github.io/git-novice
+2. erdavenport.github.io/git-lessons
+

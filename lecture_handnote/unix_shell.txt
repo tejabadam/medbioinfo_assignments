@@ -1,0 +1,46 @@
+conditional exceution 
+cmd1 data && cmd2 output-data
+cmd1 data ; cmd2 
+
+sys.exit(0) ##python exit code /error code 
+
+echo $? #special cases to print out error codes of the last run script on terminal 
+
+stdin : 0 : input
+stdout :1 : output
+stderr :2 : errors/warnings
+
+"|" connects stdin to stdout ..viz.,.,
+
+myprog <infile >outfile 
+always write warnings to stderr (sys.stderr)
+
+
+one tool for each task - do it &do it well
+
+noisy commmand 2>&1 >output_file | grep Pattern 
+
+noisy command 2> /dev/null   #get rid of noise 
+
+globbing *.fasta 
+
+$jobs
+$ls
+$fg
+$Ctrl+z / $bg
+
+
+~/bin
+
+export PATH=$PATH:~/bin
+
+
+
+
+
+
+ 
+
+
+
+

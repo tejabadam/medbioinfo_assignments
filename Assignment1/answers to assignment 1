@@ -1,0 +1,5 @@
+ about 20000 lines approximately 
+ 29305 lines
+ 2244 human , code used : grep HUMAN gpcr.tab | wc -l 
+ shortest sequence : 10 code : cut -f 7 gpcr.tab | sort -n | head -2
+ 13959 species code : cut -f 6 gpcr.tab | uniq | wc -l 
